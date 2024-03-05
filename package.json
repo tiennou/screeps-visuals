@@ -1,0 +1,25 @@
+{
+  "name": "screeps-visuals",
+  "version": "1.0.0",
+  "description": "A library for making visuals & HUDs for Screeps",
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc -p .",
+    "clean": "rm -R dist",
+    "lint": "npx prettier -w . && npx eslint"
+  },
+  "devDependencies": {
+    "@types/screeps": "^3.3.7",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-jsdoc": "^48.2.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/lodash": "^3.10.2"
+  }
+}
